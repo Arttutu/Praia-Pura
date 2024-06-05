@@ -1,0 +1,17 @@
+[
+    {
+        "nome":"Arthur Gomes",
+        "descricao": "Desenvolvedor front-end com mais de dois anos de experiência, especialista em HTML, CSS, JavaScript, React e Figma. Responsável por design de interfaces e prototipagem, garantindo experiências acessíveis e responsivas.",
+        "imagem": "src/assets/arthur.jpeg"
+    },
+    {   
+        "nome":"Yuri Klizas Gomes",
+        "descricao": "Programador com quase 10 anos de experiência em automação e desenvolvimento de projetos mecânicos, eletrônicos e científicos. Atualmente, técnico de dados, organiza e coordena etapas de desenvolvimento.",
+        "imagem": "src/assets/yuri.png"
+    },
+    { 
+        "nome":"Marcus Vinicius",
+        "descricao": " Gerente de projetos com mais de quatro anos de experiência, lidera desenvolvimento de CRMs, EXTRANETs, aplicativos e sistemas de gestão. Habilidades em PHP, Python, Java e JavaScript.",
+        "imagem": ""
+    }
+]
