@@ -9,7 +9,7 @@ export default function Apresentacao() {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5, ease: "easeIn" }}
     >
-      <section className="container mx-auto flex flex-col md:flex-row gap-12 justify-center items-center mt-32 p-8 bg-fundo ">
+      <section className="container mx-auto py-32 flex flex-col md:flex-row gap-12 justify-center items-center p-8 bg-fundo ">
         <div className="flex flex-col justify-start items-left gap-12">
           <h1 className="text-titulo text-4xl md:text-4xl lg:text-6xl font-titulo font-bold ">
             Gestão Inteligente de Resíduos em Praias

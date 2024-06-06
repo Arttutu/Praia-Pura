@@ -20,7 +20,9 @@ export default {
         parafrafo:"#5f6c7b",
         botao:"#3da9fc",
         textoBotao:"#fffffe",
-        cardBackground: "#fffffe"
+        cardBackground: "#fffffe",
+        cardBackground2:"#094067",
+        hoverBotao:"#094067"
         
       },
     },

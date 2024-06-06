@@ -3,7 +3,7 @@ import membros from "./membros.json";
 import { motion } from "framer-motion";
 export default function Membros() {
   return (
-    <section className="bg-fundo2 w-full mt-24 sm:pt-12 p-4 sm:pb-24">
+    <section className="bg-fundo2 w-full  sm:pt-12 p-4 pt-12 sm:pb-24">
       <h2 className="font-titulo text-titulo flex justify-center text-4xl sm:text-6xl font-bold">
         Nossos Membros
       </h2>
