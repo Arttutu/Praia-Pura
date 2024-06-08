@@ -19,7 +19,7 @@ export default function Apresentacao() {
             Uma solução para melhorar a limpeza e a gestão de resíduos nas
             praias.
           </p>
-          <div className="flex  items-start md:flex-row gap-4">
+          <div className="flex items-center justify-center sm:items-start md:flex-row gap-4">
             <Botao nome="Saiba mais" />
             <NavLink to="/login">
               <Botao nome="Acesse" />
