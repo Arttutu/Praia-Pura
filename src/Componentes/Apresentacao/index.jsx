@@ -2,6 +2,7 @@ import React from "react";
 import lixo from "../../assets/lixo.jpeg";
 import Botao from "../Botao";
 import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 export default function Apresentacao() {
   return (
     <motion.div
@@ -20,7 +21,9 @@ export default function Apresentacao() {
           </p>
           <div className="flex  items-start md:flex-row gap-4">
             <Botao nome="Saiba mais" />
-            <Botao nome="Acesse" />
+            <NavLink to="/login">
+              <Botao nome="Acesse" />
+            </NavLink>
           </div>
         </div>
         <div></div>

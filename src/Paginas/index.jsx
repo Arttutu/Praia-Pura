@@ -13,7 +13,6 @@ export default function Index() {
         <Apresentacao />
         <Membros />
         <DescricaoProjeto />
-        <Login />
       </main>
     </>
   );

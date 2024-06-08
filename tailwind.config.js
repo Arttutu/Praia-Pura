@@ -12,6 +12,9 @@ export default {
         destaque:["Pacifico"]
        
       },
+      spacing: {
+          'espaco-menu': 'calc(100% -200px)', // Example of using calc() in custom spacing
+        },
       colors: {
         //paleta de cor
         fundo: "#fffffe",

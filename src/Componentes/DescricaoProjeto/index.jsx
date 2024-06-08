@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { FaComputer, FaDatabase } from "react-icons/fa6";
 import { FaMapSigns } from "react-icons/fa";
 import { RiDeleteBin3Fill } from "react-icons/ri";
+import { NavLink } from "react-router-dom";
 export default function DescricaoProjeto() {
   const [solucao, setSolucao] = useState(false);
   const HandleSolucao = () => {
@@ -31,7 +32,9 @@ export default function DescricaoProjeto() {
             economicamente viáveis. Como integrar o mundo digital na solução?
           </p>
           <div className="flex gap-8">
-            <Botao nome="Acesse" />
+            <NavLink to="/login">
+              <Botao nome="Acesse" />
+            </NavLink>
             <button
               onClick={HandleSolucao}
               className="bg-botao text-textoBotao rounded-md p-2 w-40 md:w-52 hover:bg-cardBackground2 ease-in duration-300"
