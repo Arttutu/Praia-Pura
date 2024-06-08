@@ -4,7 +4,7 @@ import { NavLink, Navigate } from "react-router-dom";
 
 export default function Login() {
   return (
-    <div className="flex flex-col p-12  sm:flex sm:flex-row justify-center gap-32 w-full  items-center">
+    <div className="flex flex-col p-8  sm:flex sm:flex-row justify-center gap-32 w-full  items-center">
       <div class="flex   bg-cardBackground2 rounded-[8px] shadow-sm w-full   md:w-[500px] md:h-[400px] shadow-titulo">
         <form class=" w-full flex flex-col items-center p-12 gap-4 text-center">
           <div class="flex flex-col gap-4">
