@@ -62,9 +62,9 @@ export default function DescricaoProjeto() {
                   O descarte
                 </h5>
                 <p className="text-parafrafo font-paraf text-2xl  text-center sm:text-left leading-10">
-                  Os coletores acessam com login e veem em tempo real as
-                  lixeiras cheias, os locais mais frequentados e os com mais
-                  descarte inadequado
+                  Os banhistas já visualizam as lixeiras mais próximas com base
+                  em sua própria localização, e o tipo de resíduo que podem
+                  descartar em cada uma
                 </p>
               </div>
               <div className="flex flex-col gap-8 mt-16 text-center sm:text-left ">
